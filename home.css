@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+#menu{
+    height:100vh;
+    background-image: url("Coronavirus-1.jpg");   
+ }
+#menu h1{
+       text-align: center;
+	   color: #fff;
+	   margin-bottom: 20px;
+       transform:translateY(50%);
+       top:50%;
+       font-size: 72px;
+ }
+#navbar
+{
+  height: 100px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+#navbar ul
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  font-size: 140%;
+    
+}
+
+#navbar ul li
+{
+    list-style: none;
+    
+    padding:10px;
+}
+#navbar ul li a
+{
+    color:white;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+}
+#navbar ul li a:hover
+{
+  border-bottom: 5px solid white;
+  background-color:purple;
+}
+
+
+
+
+
+
+#info{
+    color: white;
+	padding: 100px 150px 150px 100px;
+	position: center;
+	background: linear-gradient(to bottom, #16222a, #4e4376);
+}
+#info h1{
+    text-align:center;
+    font-size:325%;
+}
+#info p
+{
+    font-weight: 400%;
+    font-family: sans-serif;
+    font-size: 150%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align:center;
+
+}
+#info2{
+	color: white;
+	padding: 100px 150px 150px 100px;
+	position: center;
+	  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+#info2 h1
+{
+    font-size: 325%;
+    text-align: center;
+}
+ #info2 p
+{
+    font-weight: 400%;
+    font-family: sans-serif;
+    font-size: 150%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#socialdistancing{
+    background-image: url("coronavirus-2.jpeg");
+}
+#socialdistancing p
+{
+    font-weight: 400%;
+    font-family: sans-serif;
+    font-size: 150%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+}
+#socialdistancing h1
+{
+    font-size: 325%;
+    text-align: center;
+    color:white;
+}
